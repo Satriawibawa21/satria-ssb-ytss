@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const script = document.createElement('script');
     script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-5EG6SV8FNK';
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1BS8LMCQGP';
     document.head.appendChild(script);
 
     window.dataLayer = window.dataLayer || [];
@@ -19,7 +19,7 @@ function App() {
       window.dataLayer.push(arguments);
     }
     gtag('js', new Date());
-    gtag('config', 'G-5EG6SV8FNK');
+    gtag('config', 'G-1BS8LMCQGP;');
   }, []);
   return (
     <Router>
